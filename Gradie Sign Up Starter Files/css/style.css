@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(214, 67%, 5%);
+
+}
+   
+img {
+    max-width: 100%;
+    
+}
+.gradie {
+    background-color:  hsl(216, 49%, 19%);
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+       
+}
+.text-head {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.text {
+    color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.gradie-imggg {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.gradie-imggg img{
+    align-self: stretch;
+   
+}
+.login {
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 20px 65px 40px 65px;
+}
+input {
+    padding: 20px;
+}
+.form-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.l1 {
+    margin-bottom: 20px;
+}
+.l2 {
+    margin-bottom: 10px;
+
+}
+.l3 {
+    margin-bottom: 20px;
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.l4 {
+    margin-bottom: 10px;
+}
+.l5 {
+    margin-bottom: 20px;
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    color: darkblue;
+}
+
+
+.checkbox {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    
+}
+
+.ptext {
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 17px;
+    color: #333;
+}
+.l6 {
+    margin-bottom: 40px;
+}
+.l7 {
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(216, 49%, 19%);
+    color: whitesmoke;
+}
+.a {
+    color: hsl(216, 49%, 19%);
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    body {
+        background-image: url('../Assets/Background.png');
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        background-image: url('../Assets/Background.png');
+    }
+    main {
+        margin-top: 50px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        
+    }
+    .login {
+        padding-top: 50px;
+    }
+}
