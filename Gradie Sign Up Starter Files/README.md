@@ -9,7 +9,7 @@ This is my first project. I used the frontend mentor for this. this is a sign up
 I deployed my project using the following websites:
 
 - [GitHub Pages](https://github.com/Nnamdi84/Gradie-Sign-up-page.git)
-- [Netlify](https://nnamdi-gradie.netlify.app/)
+- [Netlify](https://nnamdi-gradiesignup.netlify.app/)
 
 They're super easy to setup and I hhave my website up and running in no time.
 
